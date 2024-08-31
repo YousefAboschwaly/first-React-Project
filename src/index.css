@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.active{
+  background-color: #1abc9c;
+}
+nav{
+  transition: .6s padding;
+}
+.transition-height {
+  transition: height 0.3s ease-in-out;
+}
+.home .icons a{
+  text-align: center;
+}
+
+.contact input::placeholder{
+  font-size: 16px;
+  color: #2c3e50;
+}
